@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="head">
+        <nav class="nav-btns">
+            <button class="bt nav-btns__btn1"></button>
+            <div class="logo-wrapper"><img  class="nav-btns__logo" src="img/Group.png" alt=""></div>
+            <button class="bt nav-btns__btn2"></button>
+            <button class="bt nav-btns__btn3"></button>
+        </nav>
+    </header>
+
+    <div class="wrapper"> <!-- обертка -->
+    <main class="content">
+        <div class="page-title"><h1 class="page-title__title">Услуги и сервисы</h1></div>
+
+        <div class="section-btns">
+            <button class="section-btns__btn">Ремонтируемые устройства</button>
+            <button class="section-btns__btn">Дополнительные услуги</button>
+            <button class="section-btns__btn">Цены на услуги</button>
+            <button class="section-btns__btn">Специальные цены</button>
+            <button class="section-btns__btn">Отзывы</button>
+        </div>
+
+        <div class="wrapper-ifo">
+        <div class="about-info">
+            <p class="about-info__text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+            <div class="break"></div>
+            <div class="about-info__read-next">
+                <div class="read-next__hidden" id="hiddenText">Мы являемся авторизованным сервисным центром по ремонту техники Dell.Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</div>
+                <div class="read-next__icon"></div>
+                <div class="read-next__btn" id="btn" onclick="readMore()">Читать далее</div>
+            </div>
+        </div>
+        <div class="photo">
+            <img class="about-info__photo" alt="CPS-logo" src="img/photo.png">
+        </div>
+        </div>
+
+    </main>
+    </div>
+    <!-- <script>
+        function readMore() {
+    var more = document.getElementById("hiddenText");
+    var btn = document.getElementById("btn");
+    if (more.style.display == "none") {
+        more.style.display = "flex"; 
+        btn.innerHTML = "Скрыть"; 
+    } else {
+        more.style.display = "none";
+        btn.innerHTML = "Читать далее"; 
+    }
+}
+    </script> -->
+</body>
+</html>
